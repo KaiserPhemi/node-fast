@@ -5,7 +5,7 @@ const fastify = Fastify({
 });
 
 try {
-  await fastify.listen({ port: 3000 });
+   fastify.listen({ port: 5555 });
 } catch (error) {
   fastify.log.error(error);
   process.exit(1);
